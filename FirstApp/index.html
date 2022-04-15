@@ -1,140 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header>   
+    <header>
         <nav>
             <div class="logo">Олег Шихалев</div>
             <div class="menu">
-            <ul>
-                <li>Обо мне</li>
-                <li>Услуги</li>
-                <li>Кейсы</li>
-                <li>Прайс</li>
-                <li>Отзывы</li>
-                <li>Контакты</li>
-            </ul></div>
+                <ul>
+                    <li>Обо мне</li>
+                    <li>Услуги</li>
+                    <li>Кейсы</li>
+                    <li>Прайс</li>
+                    <li>Отзывы</li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <div class="main"><div class="title__container">
-        <h1>Привет  <br> Я Олег Шихалев </h1>
-        <h4>Фулл стек разработчик</h4>
-        <input type="button" value="Обо мне">
-        <input type="button" value="Мои работы">
-        <img src="img/Парень.png" alt="">
-    </div></div>
+    <div class="main">
+        <div class="title__container">
+            <h1>Привет <br> Я Олег Шихалев </h1>
+            <h4>Фулл стек разработчик</h4>
+            <input type="button" value="Обо мне">
+            <input type="button" value="Мои работы">
+
+        </div>
+    </div>
 
     <div class="about_me">
         <h2>Обо мне</h2>
         <img src="img/фотка.png" alt="#">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae totam dicta, odio sit placeat earum non sed! Necessitatibus, amet iusto maxime, quo provident temporibus, in eos sequi recusandae nihil nobis?<br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ad cumque laudantium, modi molestiae nihil neque. Quaerat impedit aliquam voluptates illo odit unde suscipit sequi aliquid cum! Exercitationem, odio vel!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae totam dicta, odio sit placeat earum non
+            sed! Necessitatibus, amet iusto maxime, quo provident temporibus, in eos sequi recusandae nihil nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ad cumque laudantium, modi molestiae nihil
+            neque. Quaerat impedit aliquam voluptates illo odit unde suscipit sequi aliquid cum! Exercitationem, odio
+            vel!</p>
         <input type="button" value="Скачать резюме">
     </div>
+
 
     <div class="what_can_i_do">
         <h2>Что я умею</h2>
         <div class="Web_design">
             <img src="img/ноут.png" alt="#">
-            <h4>Веб дизайн</h4>
+            <h3>Веб дизайн</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
+
         <div class="development">
             <img src="img/знак.png" alt="#">
-            <h4>Разработка</h4>
+            <h3>Разработка</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
+
         <div class="CED_optimization">
             <img src="img/ракета.png" alt="#">
-            <h4>CED-разработка</h4>
+            <h3>CED-разработка</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
+
         <div class="Marketing">
             <img src="img/граммофон.png" alt="#">
-            <h4>Маркетинг</h4>
+            <h3>Маркетинг</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
-    </div>  
+    </div>
 
     <div class="cases">
         <h2>Кейсы</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam impedit porro laboriosam numquam aperiam?</p>
         <img src="img/фотка_Кейс.png" alt="#">
-        <table border="1"> 
+        <table>
             <tr>
                 <td>
-                    <h4>Client:</h4> <p>Какая то компания</p>
-                      <h4>Website:</h4>  <p>http://somedomain.com</p> 
-                      <input type="button" value="Visit Live Site">
+                    <div class="info_projects">
+                        <h3>Client:</h3>
+                        <p>Какая то компания</p>
+                        <h3>Website:</h3>
+                        <p>http://somedomain.com</p>
+                        <input type="button" value="Visit Live Site">
+                    </div>
                 </td>
-                <td>
-                    <h3>Название проекта</h3><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reiciendis laudantium fugit natus fugiat quod nostrum, adipisci delectus minima odit dolores sit non magnam ipsum commodi itaque nulla ipsa laborum.</p>
+                <td valign="top">
+                    <div class="name_projects">
+                        <h2>Название проекта</h2><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repellat sequi sunt placeat
+                            itaque ex voluptas quibusdam? Voluptate, doloribus facere. Aut architecto consectetur ex
+                            dolore neque unde tenetur amet accusantium dolores odio, perferendis qui assumenda quasi
+                            minima cupiditate. Perspiciatis, reiciendis.</p>
+                    </div>
                 </td>
             </tr>
         </table>
     </div>
 
-    <div class="cost_calculation">
-        <h1>Расчет стоимости</h1>
-        <h2>Тип Сайта</h2>
+     <div class="cost_calculation">
+        <h2>Расчет стоимости</h2>
+        <h3>Тип Сайта</h3>
         <select name="type_site" id="">
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
+            <option value="" hidden disabled selected>Выберите пункт..</option>
+            <option value="">#</option>
+            <option value="">#</option>
+            <option value="">#</option>
         </select>
 
-        <h2>Дизайн</h2>
+        <h3>Дизайн</h3>
         <select name="design" id="">
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
+            <option value="" hidden disabled selected>Выберите пункт..</option>
+            <option value="">#</option>
+            <option value="">#</option>
+            <option value="">#</option>
         </select>
 
-        <h2>Адаптивность</h2>
+        <h3>Адаптивность</h3>
         <select name="adaptability" id="">
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
+            <option value="" hidden disabled selected>Выберите пункт..</option>
+            <option value="">#</option>
+            <option value="">#</option>
+            <option value="">#</option>
         </select>
-
-        <hr>
-        <h3>Сроки <span>0</span> </h3> 
-        <h3>Стоимость <span>0</span> </h3>
-    </div>   
+        <br><br>
+        <hr width="100%" color="#eeeeee" size="3">
+        
+        <table>
+            <tr>
+                <td class="cost_calculation_lable"><span>Сроки</span></td>
+                <td class="cost_calculation_number"><span>0</span></td>
+            </tr>
+            <tr>
+                <td class="cost_calculation_lable"><span>Стоимость</span></td>
+                <td class="cost_calculation_number"><span>0</span></td>
+            </tr>
+        </table>
+     </div>  
 
     <div class="statistics">
         <h2>Немного статистики</h2>
-        
+        <div class="conteyner">
         <div class="happy_clients">
             <img src="img/смайл.png" alt="улыбка">
-            <h2><b>120</b></h2>
+            <h3><b>120</b></h3>
             <p>Счастливых клиентов</p>
         </div>
         <div class="opening_hours">
             <img src="img/скобки.png" alt="скобки">
-            <h2><b>4,600</b></h2>
+            <h3><b>4,600</b></h3>
             <p>Часов работы</p>
         </div>
         <div class="project_Completed">
             <img src="img/галочка.png" alt="галочка">
-            <h2><b>340</b></h2>
+            <h3><b>340</b></h3>
             <p>Проектов завершено</p>
         </div>
         <div class="awards_received">
-            <img src="#" alt="#">
-            <h2><b>23</b></h2>
+            <img src="img/кубок.png" alt="#">
+            <h3><b>23</b></h3>
             <p>Наград получено</p>
         </div>
     </div>
+    </div>
 
-    <div class="reviews">
+      <div class="reviews"> 
         <h2>Отзывы</h2>
         <img src="img/фотка_коммент.png" alt="">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora, rem quasi suscipit nostrum officiis voluptatem aut optio itaque, odit, recusandae a omnis! Aperiam, distinctio qui nemo porro nobis adipisci!</p>
@@ -143,16 +179,17 @@
         <input type="radio" name="1" id="">
         <input type="radio" name="1" id="">
         <input type="radio" name="1" id="">
-    </div>
+      </div>
 
 
-    <div class="my_Contact">
+     <div class="my_Contact">
         <h2>Мои контакты</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id deleniti exercitationem ipsum aspernatur delectu</p>
+                <div class="contayner_MC">
          <div class="sity">
              <img src="img/гео.png" alt="#">
-             <p>Санкт-Петербург <br>Нижний проспект 11</p>
-         </div>   
+             <p>Санкт-Петербург Нижний проспект 11</p>
+         </div>
          <div class="gmail_img">
             <img src="img/конверт.png" alt="#">
             <p>test@gmail.ru</p>
@@ -161,27 +198,29 @@
             <img src="img/труба.png" alt="#">
             <p>79111111111</p>
         </div>   
+                </div>
         <h3>Оставьте мне сообщение</h3>
-        <input type="text" name="" id="">
-        <input type="email" name="" id="">
-        <input type="text" name="" id="">
+        <input type="text" name="" id="" placeholder="Имя">
+        <input type="email" name="" id="" placeholder="Email">
+        <textarea rows="8" cols="107" placeholder="Сообщение"></textarea>
         <input type="submit" value="Отправить"> 
-        <div class="social_network_icon">
+        <!-- <div class="social_network_icon">
             <img src="img/фб.png" alt="Фейсбук">
             <img src="img/твитер.png" alt="твитер">
             <img src="img/мяч.png" alt="мяч">
             <img src="img/киса.png" alt="гитхаб">
             <img src="img/инст.png" alt="инстаграм">
             <img src="img/ин.png" alt="ин">
-        </div>
-    </div>
+        </div> -->
+     </div>
 
-        <div class="map">
+        <!-- <div class="map">
 
         </div>
-        
+    -->
         <footer>
             <p>Copyright © 2022 Олег Шихалев. Design by Web</p>
-        </footer>
+        </footer>  
 </body>
+
 </html>

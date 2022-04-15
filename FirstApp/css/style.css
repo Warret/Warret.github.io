@@ -1,0 +1,477 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo {
+    line-height: 60px;
+    padding-left: 388px;
+    font-size: 26px;
+    color: white;
+    float: left;
+
+}
+
+.menu {
+    float: left;
+    padding-left: 100px;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/тень.png) 100% 105% no-repeat, url(../img/Парень.png) 90% 100%/auto 85% no-repeat, url(../img/фон.png) center/cover no-repeat;
+    /* box-shadow: inset 0px 0px 25px 5px #000; */
+
+}
+
+
+
+.title__container {
+    float: left;
+    margin: 332px 0px 0px 304px;
+    text-align: center;
+    color: #2c384a;
+
+}
+
+.title__container h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4 {
+    color: #79818d;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.title__container input {
+    height: 40px;
+    border: 2px solid #6d7682;
+    font-size: 14px;
+    margin: 35px 14px 0px 14px;
+    background: none;
+    padding: 0px 16px;
+
+}
+
+.about_me {
+    text-align: center;
+}
+
+.about_me h2 {
+    color: #263244;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.about_me img {
+    margin: 25px 0px 15px 0px;
+    width: 200px;
+    height: 200px;
+}
+
+.about_me p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+    margin: 10px 250px;
+}
+
+.about_me input {
+    height: 40px;
+    border: 2px solid #6d7682;
+    font-size: 14px;
+    margin: 20px 0px 26px 0px;
+    background: none;
+    padding: 10px 10px 10px 26px;
+    background: url(../img/иконка.png) 6% 50% no-repeat;
+    border-radius: 5px;
+}
+
+.what_can_i_do {
+    background: url(../img/картинка_фона_что_я_умею.png) 100% 100% / cover no-repeat;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+
+.what_can_i_do img {
+    height: 40px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.what_can_i_do h2 {
+    font-size: 26px;
+    padding-top: 50px;
+    margin: 50px 0px 100px 0px;
+    font-weight: bold;
+    color: #263244;
+}
+
+.what_can_i_do h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #cf7600;
+}
+
+.what_can_i_do p {
+    font-size: 12px;
+}
+
+
+.Web_design {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 0px 25px 10px 400px;
+}
+
+.development {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 0px 25px;
+}
+
+.CED_optimization {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 0px 25px;
+}
+
+.Marketing {
+    float: left;
+    margin: 0px 300px 10px 25px;
+    height: 150px;
+    width: 150px;
+}
+
+.cases {
+    text-align: center;
+}
+
+.cases h2 {
+    color: #384354;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 50px 0px 30px 0px;
+}
+
+.cases h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.cases p {
+    color: #3f495a;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.cases img {
+    height: 50%;
+    width: 70%;
+
+}
+
+.info_projects {
+    width: 100%;
+}
+
+
+.info_projects input {
+    height: 40px;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-top: 5px;
+    background: none;
+    padding: 0px 16px;
+    text-transform: uppercase;
+    background: #63b5ae;
+    color: white;
+
+}
+
+.cases table {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.cases table td {
+    text-align: center;
+}
+
+.cases table h3 {
+    text-transform: uppercase;
+}
+
+.cases table h2 {
+    font-size: 20px;
+}
+
+.cases table p {
+    font-size: 12px;
+}
+
+.name_projects h2 {
+    margin: auto;
+    text-align: left;
+}
+
+.name_projects p {
+    margin: auto;
+    text-align: left;
+}
+
+.name_projects {
+    margin-left: 40px;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+.cost_calculation {
+    align-items: center;
+    width: 55%;
+    margin: 5% auto;
+}
+
+.cost_calculation h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    margin: 40px auto;
+}
+
+.cost_calculation h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 30px 0px 10px 20%;
+    font-weight: bold;
+}
+
+
+.cost_calculation select {
+    width: 60%;
+    background-color: #eeeeee;
+    height: 30px;
+    margin-left: 20%;
+}
+
+
+.cost_calculation hr {
+    color: black;
+    width: 100%;
+    size: 2px;
+}
+
+.cost_calculation table {
+    margin: 20px 0px 10px 20%;
+    width: 60%;
+    font-size: 18px;
+
+}
+
+.cost_calculation table td {
+    height: 30px;
+}
+
+.cost_calculation_lable {
+    text-align: left;
+}
+
+.cost_calculation_number {
+    text-align: right;
+}
+
+.conteyner {
+    display: flex;
+    justify-content: center;
+}
+
+.statistics {
+    align-items: center;
+    padding: 70px 0px 70px 0px;
+    background: url(../img/фон_немного_статистики.png) 100% 100% / cover no-repeat;
+
+}
+
+.statistics h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 100px;
+}
+
+.statistics h3 {
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.statistics img {
+    height: 50px;
+    width: 50px;
+}
+
+.happy_clients {
+    float: left;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.opening_hours {
+    float: left;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.project_Completed {
+    float: left;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.awards_received {
+    float: left;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.reviews {
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+    /* padding:; */
+}
+
+.reviews h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0px 70px 0px;
+}
+
+.reviews p {
+    padding-top: 35px;
+}
+
+.reviews input {
+    margin-top: 25px;
+}
+
+.reviews img {
+    width: 100px;
+    height: 100px;
+}
+
+.my_Contact {
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px 0px 70px 0px;
+    width: 100%;
+    background: url(../img/Фон_мои_контакты.png) 100% 100% / cover no-repeat;
+    color:white;
+    
+}
+
+.my_Contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 50px auto;
+    padding-top: 50px auto;
+}
+
+.sity{
+width: 10%;
+float: left;
+margin: 15px 20px 15px 20px;
+
+}
+.gmail_img{
+    width: 10%;
+    float: left;
+    margin: 15px 20px 15px 20px;
+}
+.telephon{
+    width: 10%;
+    float: left;
+    margin: 15px 20px 15px 20px;
+}
+.my_Contact p {
+    margin-top: 10px;
+}
+.contayner_MC{
+    display: flex;
+    justify-content: center;
+}
+
+.my_Contact h3 {
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+.my_Contact input {
+    background-color: #d8dce2;
+    opacity: 0.7;
+    width: 352px;
+    height: 33px;
+    float: button;
+    padding: 5px;
+    margin: auto 15px;
+}
+.my_Contact input[type=submit] {
+    background: none;
+    border: 2px solid white;
+    color:white;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: auto;
+    width: auto;
+    margin: 20px auto;
+    
+}
+.my_Contact textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: #d8dce2;
+    opacity: 0.7;
+}
+footer {
+    background: #354051;
+    color:white;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+
+
+
